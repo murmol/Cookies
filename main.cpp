@@ -179,10 +179,8 @@ int main(int argc, char *argv[])
                     unknownMoney-=i;
                 }else
                     {coins2OnHand--;}
-                //cout<<"вы внесли "<<i<<" руб."<<endl;
                         balance+=i;
                         total+=i;
-             //           coins2OnHand--;
                         break;
                      }
             case 5:
@@ -202,10 +200,8 @@ int main(int argc, char *argv[])
                     unknownMoney-=i;
                 }else
                     {coins5OnHand--;}
-                //cout<<"вы внесли "<<i<<" руб."<<endl;
                     balance+=i;
                     total+=i;
-               //     coins5OnHand--;
                     break;
                 }
             case 10:
@@ -225,10 +221,8 @@ int main(int argc, char *argv[])
                     unknownMoney-=i;
                 }else
                     {coins10OnHand--;}
-                //cout<<"вы внесли "<<i<<" руб."<<endl;
                     balance+=i;
                     total+=i;
-                 //   coins10OnHand--;
                     break;
                 }
             default:
